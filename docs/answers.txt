@@ -1,0 +1,42 @@
+1. 
+dk@iMac assignment2 % git add docs/status.txt 
+dk@iMac assignment2 % git commit -m "Add git status output to docs/status.txt"
+[master 800d0b9] Add git status output to docs/status.txt
+ 1 file changed, 10 insertions(+)
+ create mode 100644 docs/status.txt
+dk@iMac assignment2 % git push origin master
+Enter passphrase for key '/Users/dk/.ssh/id_ed25519': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 518 bytes | 518.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:OrbitalDweller/assignment2.git
+   6072b07..800d0b9  master -> master
+dk@iMac assignment2 % 
+
+2. Nine commits. "Git log" and count commits
+
+3. Fri Oct 25 18:42:54 2024 -0400. "Git log -- READM.md"
+
+4. 1) Help divide development into different features. 2) Multiple people can work at the same time without interfering with each other
+
+5. "Git log" gives a history of commits. "Git status" shows you the changes made that haven't been committed.
+
+
+6. "Git log -- Vehicle.h"
+
+7. "Git log --grep="file"
+
+8. 
+Inheritance lets a class inherit properties and behaviors from another class, enabling code reuse.
+
+Polymorphism allows methods to perform different tasks based on the object, through method overloading or overriding
+
+Encapsulation restricts access to an object's data by bundling data and methods together and controlling visibility with access modifiers.
+
+9. The Dictator and Lieutenants workflow uses a hierarchy where lieutenants review and merge contributions before the lead developer (dictator) gives final approval. In contrast, the Integration Manager workflow has one person merging all changes without intermediaries
+
+10. Dictator and Lieutenants workflow reduces bottlenecks by allowing lieutenants to manage merges. Adds quality control with an extra review layer. Keeps organization clear, which is ideal for large teams.
